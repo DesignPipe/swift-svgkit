@@ -1,5 +1,10 @@
 # SVGKit
 
+[![CI](https://github.com/DesignPipe/swift-svgkit/actions/workflows/ci.yml/badge.svg)](https://github.com/DesignPipe/swift-svgkit/actions/workflows/ci.yml)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FDesignPipe%2Fswift-svgkit%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/DesignPipe/swift-svgkit)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FDesignPipe%2Fswift-svgkit%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/DesignPipe/swift-svgkit)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/DesignPipe/swift-svgkit/blob/main/LICENSE)
+
 SVG parsing and Android-native format generation in Swift.
 
 Converts SVG files to:

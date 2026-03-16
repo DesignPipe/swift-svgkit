@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  macos:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        run: swift build
+      - name: Test
+        run: swift test
+
+  linux:
+    runs-on: ubuntu-latest
+    container: swift:6.1-jammy
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build tests
+        run: swift build --build-tests
+      - name: Test
+        run: swift test --skip-build --parallel
